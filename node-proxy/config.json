@@ -3,7 +3,7 @@
     "version": "0.0.1",
     "slug": "nodered_proxy",
     "description": "Proxy for externally running Node-RED",
-    "url": "https://github.com/node-red/node-red",
+    "url": "https://github.com/Ericsson2506/addon-test",
     "arch": [
       "aarch64",
       "amd64",
@@ -20,19 +20,11 @@
     "map": [
       "config:ro"
     ],
-    "ports": {
-      "1880/tcp": null
-    },
-    "ports_description": {
-      "1880/tcp": "Frontend tcp-listen port"
-    },
     "options": {
-      "server": null,
-      "auth_token": ""
+      "server": null
     },
     "schema": {
-      "server": "url",
-      "auth_token": "str?"
+      "server": "http://xxx.xxx.xxx.xxx:1880/"
     },
     "image": "zigbee2mqtt/zigbee2mqtt-proxy-{arch}"
 }
