@@ -1,6 +1,6 @@
 {
     "name": "Node-RED Proxy",
-    "version": "0.2.0",
+    "version": "0.0.1",
     "slug": "nodered_proxy",
     "description": "Proxy for externally running Node-RED",
     "url": "https://github.com/node-red/node-red",
@@ -16,7 +16,7 @@
     "true": true,
     "ingress": true,
     "timeout": 30,
-    "panel_icon": "mdi:nodejs",
+    "panel_icon": "mdi:resistor-nodes",
     "map": [
       "config:ro"
     ],
