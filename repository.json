@@ -1,5 +1,6 @@
 {
-  "name": "Home Assistant TEST Add-on",
-  "url": "test",
-  "maintainer": "test"
+  "name": "Addon Test Repository",
+  "url": "https://github.com/Ericsson2506/addon-test",
+  "maintainer": "Your Name",
+  "email": "your.email@example.com"
 }
