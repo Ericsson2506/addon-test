@@ -16,7 +16,7 @@
     "true": true,
     "ingress": true,
     "timeout": 30,
-    "panel_icon": "mdi:resistor-nodes",
+    "panel_icon": "mdi:sitemap",
     "map": [
       "config:ro"
     ],
