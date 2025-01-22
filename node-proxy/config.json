@@ -20,6 +20,12 @@
     "map": [
       "config:ro"
     ],
+    "ports": {
+      "1880/tcp": null
+    },
+    "ports_description": {
+      "1880/tcp": "Frontend tcp-listen port"
+    },
     "options": {
       "server": null
     },
