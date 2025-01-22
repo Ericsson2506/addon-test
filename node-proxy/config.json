@@ -20,11 +20,19 @@
     "map": [
       "config:ro"
     ],
+    "ports": {
+      "1880/tcp": null
+    },
+    "ports_description": {
+      "1880/tcp": "Frontend tcp-listen port"
+    },
     "options": {
-      "server": null
+      "server": null,
+      "auth_token": ""
     },
     "schema": {
-      "server": "http://xxx.xxx.xxx.xxx:1880/"
+      "server": "url",
+      "auth_token": "str?"
     },
     "image": "zigbee2mqtt/zigbee2mqtt-proxy-{arch}"
 }
